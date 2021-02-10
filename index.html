@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <!-- document responsive but scaling the items to screen -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Homework-3 Random Password Generator -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    
+    <!-- The title-->
+    <title>Password Generator</title>
+    
+    <!-- These are the style links. Reset CSS and Styles CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<!-- This is the body -->
+
+<body>    
+  <div id="wrapper">
+        <header>
+            <h1>Password Generator</h1>
+        </header>
+        
+        <!--This is the content area-->
+        <div id="content">
+            <h2>Generate a Password</h2>
+            <hr>
+            
+            <!-- This is a text area for output-->
+            <textarea readonly id="password" placeholder="Your Secure Password"
+                aria-label="Generated Password"></textarea>
+            <hr>
+            
+            <div id="btn">
+                
+              <!-- This is the generate password button -->
+                <button id="generate">Generate Password</button>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- This is the Javascript document-->
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
