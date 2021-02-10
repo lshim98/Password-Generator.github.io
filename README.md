@@ -10,8 +10,10 @@ The password can include special characters. If you’re unfamiliar with these, 
 
 ```
 AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
+
+I WANT to randomly generate a password that meets a certain criteria
+
+SO THAT I can create a strong, randomized password that provides security
 ```
 
 ## Acceptance Criteria
