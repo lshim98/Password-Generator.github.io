@@ -1,37 +1,101 @@
-## Welcome to GitHub Pages
+##03 JavaScript: Password Generator
 
-You can use the [editor on GitHub](https://github.com/lshim98/Password-Generator.github.io/) to maintain and preview the content for your website in Markdown files.
+Your Task
+This week’s homework requires you to modify starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished, responsive user interface that adapts to multiple screen sizes.
+The password can include special characters. If you’re unfamiliar with these, see this list of password special characters from the OWASP Foundation.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+User Story
+AS AN employee with access to sensitive data
+I WANT to randomly generate a password that meets certain criteria
+SO THAT I can create a strong password that provides greater security
 
-### Markdown
+Acceptance Criteria
+GIVEN I need a new, secure password
+WHEN I click the button to generate a password
+THEN I am presented with a series of prompts for password criteria
+WHEN prompted for password criteria
+THEN I select which criteria to include in the password
+WHEN prompted for the length of the password
+THEN I choose a length of at least 8 characters and no more than 128 characters
+WHEN prompted for character types to include in the password
+THEN I choose lowercase, uppercase, numeric, and/or special characters
+WHEN I answer each prompt
+THEN my input should be validated and at least one character type should be selected
+WHEN all prompts are answered
+THEN a password is generated that matches the selected criteria
+WHEN the password is generated
+THEN the password is either displayed in an alert or written to the page
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Grading Requirements
+This homework is graded based on the following criteria:
 
-```markdown
-Syntax highlighted code block
+Technical Acceptance Criteria: 40%
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+Satisfies all of the preceding acceptance criteria plus the following:
 
-1. Numbered
-2. List
+The homework should not produce any errors in the console when you inspect it using Chrome DevTools.
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+Deployment: 32%
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lshim98/Password-Generator.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+Application deployed at live URL.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+Application loads with no errors.
+
+
+Application GitHub URL submitted.
+
+
+GitHub repository that contains application code.
+
+
+
+Application Quality: 15%
+
+
+Application user experience is intuitive and easy to navigate.
+
+
+Application user interface style is clean and polished.
+
+
+Application resembles the mock-up functionality provided in the homework instructions.
+
+
+
+Repository Quality: 13%
+
+
+Repository has a unique name.
+
+
+Repository follows best practices for file structure and naming conventions.
+
+
+Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+
+
+Repository contains multiple descriptive commit messages.
+
+
+Repository contains quality readme file with description, screenshot, and link to deployed application.
+
+
+
+Review
+You are required to submit the following for review:
+
+
+The URL of the deployed application.
+
+
+The URL of the GitHub repository, with a unique name and a readme describing the project.
+
+
+
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
